@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron.dogHero {
+	background: url(../images/dogHero.jpg) no-repeat;
+	background-size: 100%;
+	padding-top: 60px;
+}
+
+.jumbotron.dogHero .col-md-5 {
+background: url(../images/blackTransparency.png) repeat;
+border-radius: 10px;
+color: white;
+}
+
