@@ -347,7 +347,7 @@ p {
 }
 @media (min-width:768px) {
 .lead {
-font-size:21px
+font-size:18px
 }
 }
 small, .small {
@@ -1690,6 +1690,25 @@ text-align:right
 	-ms-user-select:none;
 	user-select:none
 }
+.btnLarge {
+	display:inline-block;
+	margin: 15% 10%;
+	font-weight:400;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	background-image:none;
+	border:1px solid transparent;
+	white-space:nowrap;
+	padding: 2% 20%;
+	font-size:14px;
+	line-height:1.42857143;
+	border-radius:4px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	outline:thin dotted;
 	outline:5px auto -webkit-focus-ring-color;
@@ -1714,14 +1733,14 @@ text-align:right
 	box-shadow:none
 }
 .btn-default {
-	color:#333;
-	background-color:#fff;
+	color:#fff;
+	background-color:#ff9335;
 	border-color:#ccc
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
-	color:#333;
-	background-color:#ebebeb;
-	border-color:#adadad
+	color:#fff;
+	background-color:#e18230;
+	border-color:#e18230
 }
 .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
 	background-image:none
@@ -1736,13 +1755,13 @@ text-align:right
 }
 .btn-primary {
 	color:#fff;
-	background-color:#428bca;
-	border-color:#357ebd
+	background-color:#ff9335;
+	border-color:#e18230
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	color:#fff;
-	background-color:#3276b1;
-	border-color:#285e8e
+	background-color:#e18230;
+	border-color:#e18230
 }
 .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	background-image:none
@@ -3178,7 +3197,6 @@ border-radius:0
 	padding:15px;
 	font-size:18px;
 	line-height:20px;
-	height:50px
 }
 .navbar-brand:hover, .navbar-brand:focus {
 	text-decoration:none
@@ -3469,7 +3487,8 @@ background-color:transparent
 	background-color:transparent
 }
 .navbar-inverse .navbar-toggle {
-	border-color:#333
+	border-color:#333;
+	background: #333;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background-color:#333
@@ -3478,7 +3497,7 @@ background-color:transparent
 	background-color:#fff
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color:#101010
+	border-color:#ccc;
 }
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
 	background-color:#080808;
@@ -3741,7 +3760,7 @@ a.list-group-item.active>.badge, .nav-pills>.active>a>.badge {
 }
 .jumbotron p {
 	margin-bottom:15px;
-	font-size:21px;
+	font-size:18fpx;
 	font-weight:200
 }
 .container .jumbotron {
@@ -4985,4 +5004,10 @@ th.visible-print, td.visible-print {
 .hidden-print {
 	display:none!important
 }
+}
+
+
+.navbar-collapse.collapse.in .navItem {
+padding: 10px 0;
+border-bottom: 1px solid #ccc;
 }

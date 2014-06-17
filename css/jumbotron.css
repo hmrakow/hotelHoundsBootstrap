@@ -10,7 +10,7 @@ body {
 .jumbotron.dogHero {
 	background: url(../images/dogHero.jpg) no-repeat;
 	background-size: 100%;
-	padding-top: 60px;
+	padding: 135px 0;
 }
 
 .jumbotron.dogHero .col-md-5 {
@@ -19,3 +19,20 @@ border-radius: 10px;
 color: white;
 }
 
+.quote {
+text-align: center;
+padding-bottom: 30px;
+}
+.equation {
+width:80%;
+padding-bottom: 50px;
+margin: 0 10%;
+}
+h2.quoteText {
+float: left;
+width: 88%;
+}
+img.dogPawQuote {
+float: left;
+width: 6%;
+}
